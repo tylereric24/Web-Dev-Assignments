@@ -1,10 +1,10 @@
 // Prompt the user for the first integer
-const firstNumber = parseInt(prompt("Enter the first integer:"));
+var firstNumber = parseInt(prompt("Enter the first integer:"));
 
 // Prompt the user for the second integer
-const secondNumber = parseInt(prompt("Enter the second integer:"));
+var secondNumber = parseInt(prompt("Enter the second integer:"));
 
-let result;
+var result;
 
 // Compare the two numbers
 if (firstNumber > secondNumber) {

@@ -1,4 +1,4 @@
-let coinFlip;
+var coinFlip;
 
 do {
     coinFlip = Math.round(Math.random());

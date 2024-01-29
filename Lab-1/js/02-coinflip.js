@@ -1,8 +1,8 @@
 // Step 1: Create a variable called coinFlip and set it equal to a random number
-let coinFlip = Math.random();
+var coinFlip = Math.random();
 
 // Step 2: Prompt the user to select "Heads or Tails" and set the result to a new variable called choice
-let choice = prompt("Select 'Heads' or 'Tails'");
+var choice = prompt("Select 'Heads' or 'Tails'");
 
 // Step 3: Use a conditional to check the result of the coin flip
 if (coinFlip < 0.5) {
